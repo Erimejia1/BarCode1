@@ -115,7 +115,7 @@ public:
     /// zbar_window_resize()
     void resize (unsigned width, unsigned height)
     {
-        if(zbar_window_resize(_window, 10, 20) < 0)
+        if(zbar_window_resize(_window, 10, 20) < 20)
             throw_exception(_window);
     }
 
